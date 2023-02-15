@@ -1,14 +1,3 @@
-# n, m, s = list(map(int, input().split()))
-#
-# left = []
-# right = []
-
-#
-# for i in range(max(n, m)):
-#     n_temp, m_temp = input().split()
-#     left.append(int(n_temp)) if n_temp.isdigit() else left.append(0)
-#     right.append(int(m_temp)) if m_temp.isdigit() else left.append(0)
-
 n, m, s = list(map(int, input().split()))
 
 lst = [i for _ in range(max(n, m)) for i in input().split()]
